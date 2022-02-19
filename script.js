@@ -8,8 +8,8 @@ submitButton.addEventListener('click', function() {
     const userPassword = passwordField.value;
     // conditon 
     if (userEmail == 'shamim' && userPassword == '1234') {
-        window.open('banking.html');
-        // window.location.href = "banking.html";
+        // window.open('banking.html');
+        window.location.href = "banking.html";
     } else {
         alert('warning! use valid info....')
     }
