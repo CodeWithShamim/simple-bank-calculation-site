@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank</title>
+    <!-- add tailwind cdn link -->
+    <script src="https://cdn.tailwindcss.com/3.0.14"></script>
+</head>
+
+<body>
+    <!-- header start here -->
+    <header>
+        <h1 class="text-5xl text-center mt-16">
+            Welcome to my <span class="text-red-500">SIRASB BANK!!</span>
+        </h1>
+    </header>
+    <main>
+        <section class="bg-blue-400 w-3/4 mx-auto mt-12 pb-10">
+            <h2 class="text-center text-4xl text-white p-4 mt-4 font-semibold">
+                Please login!
+            </h2>
+            <form>
+                <input id="user-email" type="text" placeholder="type 'shamim'" class="w-3/4 mx-auto text-center mt-5 p-5 border-red-400 rounded block" />
+
+                <input id="user-password" type="password" placeholder="type '1234'" class="w-3/4 mx-auto text-center mt-5 p-5 border-red-400 rounded block" />
+
+                <!-- add button  -->
+                <div class="text-center">
+                    <button id="submit-btn" class="bg-orange-500 text-white text-2xl font-semibold py-3 px-10 my-5 rounded">
+              Submit
+            </button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- add js script  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
